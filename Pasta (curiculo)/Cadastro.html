@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/Css" href="Cadastro.css">
+        </head>
+
+        <body>
+<!--Tag de título do h1 até o H6-->
+
+<h1>imformações</h1>
+<p>Preencha as informações pedidas, Para fazer seu pedido.</p>
+<p> Não conseguiu? entre em contato conosco.</p>
+
+<!-- Campo de texto simples -->
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+<br><br>
+
+<!-- Campo para e-mail -->
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+<br><br>
+
+<!-- Campo para telefone -->
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+<br><br>
+
+<!-- Campo de texto simples -->
+<label for="endereco">Endereço:</label>
+<input type="text" id="endereco" name="endereco" placeholder="Digite seu endereco">
+<br><br>
+
+<!-- Botão de Enviar -->
+<input type="submit" value="Enviar">
+</imput>
+ 
+ <!-- Make sure you don't change the form action-->
+ <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="975057c1-4bf7-4f74-b95e-607e01478d0e"> <!-- Required -->
+
+        <!-- Replace with accesKey sent to your email -->
+        <input type="text" name="name"> <!-- Optional -->
+        <input type="text" name="subject"> <!-- Optional -->
+        <input type="text" name="email"> <!-- Optional -->
+        <input type="text" name="phone"> <!-- Optional -->
+
+        <!-- If you want replyTo to be set to specific email -->
+        <input type="text" name="replyTo" value="ch5335030@gmail.com"> <!-- Optional -->
+        <!-- Specify @ as reply to value if you want it to be customers email -->
+        <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+        <!-- If you want form to redirect to a specific url after submission -->
+        <input type="hidden" name="redirectTo" value="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFUaaGInT_R8&psig=AOvVaw3gl6w2-uy-SwQbf5BmDo5G&ust=1725394211584000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwiInp3ciKWIAxUAAAAAHQAAAAAQBA"> <!-- Optional -->
+        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" />
+    </form>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+</html>
+
+
+
+

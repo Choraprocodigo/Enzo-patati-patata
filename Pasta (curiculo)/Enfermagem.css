@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}
+
+.texto{
+    width: 50%;
+}
+
+.imagem{
+    width: 50%;
+}
